@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 
+@font-face {
+	font-family: Augestina;
+	src: url('/fonts/Agustina.otf');
+}
+
+@font-face {
+	font-family: MagnificChaos;
+	src: url('/fonts/MagnificChaos.ttf');
+}
+
+@font-face {
+	font-family: AngillaTattoo;
+	src: url('/fonts/AngillaTattoo.ttf');
+}
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -10,9 +26,14 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 43, 103, 119;
-  --background-end-rgb: 200, 216, 228;
+  --mui-palette-primary-main: #1976d2;
+  --mui-palette-primary-light: #42a5f5;
+  --mui-palette-primary-dark: #1565c0;
+  --mui-palette-primary-contrastText: #fff;
+
+  --foreground-rgb: 245, 235, 235;
+  --background-end-rgb: 134, 112, 112;
+  --background-start-rgb: 213, 180, 180;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -22,6 +43,9 @@
     #0071ff33 160deg,
     transparent 360deg
   );
+
+  --primary-border-rgb: 228, 208, 208;
+
   --secondary-glow: radial-gradient(
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0)
@@ -95,9 +119,9 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--background-start-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-end-rgb));
 }
 
 a {

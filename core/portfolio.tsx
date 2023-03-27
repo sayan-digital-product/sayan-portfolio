@@ -17,7 +17,7 @@ export const contact = {};
 export const socialLinks = {
   instagram: "https://www.instagram.com/brendanglance/",
   github: "https://github.com/sayanbanerjee",
-  linkedin: "https://www.linkedin.com/in/brendan-glancy/",
+  linkedin: "https://www.linkedin.com/in/sayan-banerjee-0007/",
   discord: "https://www.hackerrank.com/Bglance68",
   blog: "https://sayanbanerjee.github.io/",
   twitter: "https://sayanbanerjee.twitter.com"
@@ -114,6 +114,22 @@ export const skillsSection = {
     },
   ],
 };
+
+export const skills = {
+  title: "What I use",
+  subTitle: "PASSIONATE UI ARCHITECT WHO WANTS TO EXPLORE EVERY TECH DOMAIN",
+  data: [
+    {
+      title: "UI Development",
+      softwareSkills: [
+        {
+          skillName: "angular",
+          logos: ""
+        }
+      ]
+    }
+  ]
+}
 
 export const SkillBars = [
   {

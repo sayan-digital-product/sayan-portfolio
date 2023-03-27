@@ -15,7 +15,7 @@ export default function Experience() {
 						</div>
 					</div>
 					<div className={`pl-4 ${styles.wrapHeading}`}>
-						<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}>Experience</Typography>
+						<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}>EXPERIENCE</Typography>
 					</div>
 				</div>
                 <section className="grid grid-cols-2 mt-10">

@@ -1,6 +1,5 @@
 
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -17,9 +16,7 @@ export default function ExperienceCard({data}){
 	return (
 		<section className="mx-12 my-2">
 			<Fade bottom duration={2000}>
-                <Card variant="outlined"
-                    elevation={4}
-                >
+                <Card variant="outlined">
                     <CardHeader
                         avatar={
                         <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

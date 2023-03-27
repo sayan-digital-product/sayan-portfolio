@@ -37,12 +37,12 @@ export default function Navigation(){
                    position={'sticky'}
 				>
                         <div className="grid grid-cols-2 grid-rows-1 gap-4">
-                            <NavbarBrand href="/" className="grid grid-cols-1">
+                            {/* <NavbarBrand href="/" className="grid grid-cols-1">
                                 <h2 className="text-white" id="nav-title">
                                     {greetings.name}
                                 </h2>
-                            </NavbarBrand>
-                            <div className="grid grid-cols-1">
+                            </NavbarBrand> */}
+                            <div className="grid grid-cols-2">
                             <Nav
 								className="align-items-lg-center ml-lg-auto grid grid-cols-4 gap-4"
 								navbar
