@@ -15,11 +15,8 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  instagram: "https://www.instagram.com/brendanglance/",
   github: "https://github.com/sayanbanerjee",
   linkedin: "https://www.linkedin.com/in/sayan-banerjee-0007/",
-  discord: "https://www.hackerrank.com/Bglance68",
-  blog: "https://sayanbanerjee.github.io/",
   twitter: "https://sayanbanerjee.twitter.com"
 };
 
@@ -118,17 +115,161 @@ export const skillsSection = {
 export const skills = {
   title: "What I use",
   subTitle: "PASSIONATE UI ARCHITECT WHO WANTS TO EXPLORE EVERY TECH DOMAIN",
-  data: [
-    {
-      title: "UI Development",
-      softwareSkills: [
+  software: {
+    title: "Software skills",
+    data: [
         {
-          skillName: "angular",
-          logos: ""
-        }
-      ]
-    }
-  ]
+          skillName: "Angular",
+          component: "angular"
+        },
+        {
+          skillName: "CSS3",
+          component: "css"
+        },
+        {
+          skillName: "React",
+          className: "icon-React"
+        },
+        {
+          skillName: "Nextjs",
+          className: "icon-Nextjs"
+        },
+        {
+          skillName: "Jquery",
+          component: "jquery"
+        },
+        {
+          skillName: "Material UI",
+          className: "icon-Material-UI-MUI"
+        },
+        {
+          skillName: "Node js",
+          component: "nodejs"
+        },
+        {
+          skillName: "Redux",
+          className: "icon-Redux"
+        },
+        {
+          skillName: "Javascript",
+          component: "javascript"
+        },
+        {
+          skillName: "Jest",
+          component: "jest"
+        },
+        {
+          skillName: "Ionic",
+          className: "icon-ionic"
+        },
+        {
+          skillName: "Sass",
+          className: "icon-Sass"
+        },
+        {
+          skillName: "Jasmine",
+          className: "icon-jasmine"
+        },
+        {
+          skillName: "Handlebars",
+          className: "icon-Handlebars"
+        },
+        {
+          skillName: "Stylus",
+          className: "icon-Stylus"
+        },
+        {
+          skillName: "Docker",
+          className: "icon-Docker"
+        },
+        {
+          skillName: "Tailwind CSS",
+          className: "icon-TailwindCSS"
+        },
+        {
+          skillName: "OAuth2",
+          className: "icon-Tech-Stack-Logos-1"
+        },
+        {
+          skillName: "GraphQL",
+          className: "icon-GraphQL"
+        },
+        {
+          skillName: "Typescript",
+          component: "typescript"
+        },
+        {
+          skillName: "Webpack",
+          component: "webpack"
+        },
+        {
+          skillName: "Storybook",
+          component: "storybook"
+        },
+        {
+          skillName: "Cypress",
+          component: "cypress"
+        },
+        {
+          skillName: "Nginx",
+          component: "nginx"
+        },
+    ]
+  },
+  concepts: {
+    title: "Concepts practised",
+    data: [
+      {
+        skillName: "Material UI",
+        logos: "icon-Material-UI-MUI"
+      },
+      {
+        skillName: "React",
+        logos: "icon-React"
+      },
+      {
+        skillName: "Sass",
+        logos: "icon-Sass"
+      }
+    ]
+  },
+  tools: {
+    title: "Tools adopted",
+    data: [
+      {
+        skillName: "Material UI",
+        logos: "icon-Material-UI-MUI"
+      },
+      {
+        skillName: "React",
+        logos: "icon-Brandreactjs"
+      },
+      {
+        skillName: "Sass",
+        logos: "icon-Sass"
+      },
+      {
+        skillName: "Material UI",
+        logos: "icon-Material-UI-MUI"
+      },
+      {
+        skillName: "Sass",
+        logos: "icon-Sass"
+      },
+      {
+        skillName: "Material UI",
+        logos: "icon-Material-UI-MUI"
+      },
+      {
+        skillName: "React",
+        logos: "icon-React"
+      },
+      {
+        skillName: "Sass",
+        logos: "icon-Sass"
+      },
+    ]
+  }
 }
 
 export const SkillBars = [

@@ -1,0 +1,442 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('/fonts/icons.ttf')format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+[class^="icon"], [class*=" icon"] {
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1; 
+  font-size: 2rem;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Angular .path1:before {
+  content: "\e900";
+  color: rgb(226, 50, 55);
+}
+.icon-Angular .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(181, 46, 49);
+}
+.icon-Angular .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-CSS3 .path1:before {
+  content: "\e903";
+  color: rgb(0, 0, 0);
+}
+.icon-CSS3 .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-CSS3 .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-CSS3 .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 113, 188);
+}
+.icon-CSS3 .path5:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(41, 171, 226);
+}
+.icon-CSS3 .path6:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(179, 179, 179);
+}
+.icon-CSS3 .path7:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(230, 230, 230);
+}
+.icon-CSS3 .path8:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(230, 230, 230);
+}
+.icon-CSS3 .path9:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-CSS3 .path10:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(230, 230, 230);
+}
+.icon-CSS3 .path11:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(230, 230, 230);
+}
+.icon-CSS3 .path12:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Cypress .path1:before {
+  content: "\e90f";
+  color: rgb(0, 0, 0);
+}
+.icon-Cypress .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Cypress .path3:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Cypress .path4:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(9, 41, 63);
+}
+.icon-Cypress .path5:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(9, 41, 63);
+}
+.icon-Cypress .path6:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Docker:before {
+  content: "\e915";
+  color: #2396ed;
+}
+.icon-GraphQL:before {
+  content: "\e916";
+  color: #e535ab;
+}
+.icon-Handlebars:before {
+  content: "\e917";
+}
+.icon-intellij-idea .path1:before {
+  content: "\e918";
+  color: rgb(0, 0, 0);
+}
+.icon-intellij-idea .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-intellij-idea .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-intellij-idea .path4:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-intellij-idea .path5:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-intellij-idea .path6:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ionic:before {
+  content: "\e91e";
+  color: #3880ff;
+}
+.icon-jasmine:before {
+  content: "\e91f";
+  color: #8a4182;
+}
+.icon-Javascript .path1:before {
+  content: "\e920";
+  color: rgb(247, 223, 30);
+}
+.icon-Javascript .path2:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Javascript .path3:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Jest .path1:before {
+  content: "\e923";
+  color: rgb(153, 66, 91);
+}
+.icon-Jest .path2:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-jQuery .path1:before {
+  content: "\e925";
+  color: rgb(26, 25, 24);
+}
+.icon-jQuery .path2:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(26, 25, 24);
+}
+.icon-jQuery .path3:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(26, 25, 24);
+}
+.icon-jQuery .path4:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(26, 25, 24);
+}
+.icon-jQuery .path5:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(26, 25, 24);
+}
+.icon-jQuery .path6:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(26, 25, 24);
+}
+.icon-jQuery .path7:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(26, 25, 24);
+}
+.icon-jQuery .path8:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(33, 96, 155);
+}
+.icon-jQuery .path9:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(33, 96, 155);
+}
+.icon-jQuery .path10:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(33, 96, 155);
+}
+.icon-Kubernetes .path1:before {
+  content: "\e92f";
+  color: rgb(50, 109, 230);
+}
+.icon-Kubernetes .path2:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Kubernetes .path3:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Material-UI-MUI:before {
+  content: "\e932";
+  color: #007fff;
+}
+.icon-Nextjs:before {
+  content: "\e933";
+}
+.icon-nginx .path1:before {
+  content: "\e934";
+  color: rgb(0, 150, 57);
+}
+.icon-nginx .path2:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Nodejs .path1:before {
+  content: "\e936";
+  color: rgb(83, 158, 67);
+}
+.icon-Nodejs .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-Nodejs .path3:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-Nodejs .path4:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(51, 51, 51);
+}
+.icon-Nodejs .path5:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(83, 158, 67);
+}
+.icon-Nodejs .path6:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Nodejs .path7:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Nodejs .path8:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Nodejs .path9:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Nodejs .path10:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Nodejs .path11:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-React:before {
+  content: "\e941";
+  color: #00d8ff;
+}
+.icon-Redux:before {
+  content: "\e942";
+  color: #764abc;
+}
+.icon-Sass:before {
+  content: "\e943";
+  color: #8cc84b;
+}
+.icon-Storybook .path1:before {
+  content: "\e944";
+  color: rgb(255, 71, 133);
+}
+.icon-Storybook .path2:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Stylus:before {
+  content: "\e946";
+}
+.icon-TailwindCSS:before {
+  content: "\e947";
+}
+.icon-Tech-Stack-Logos .path1:before {
+  content: "\e948";
+  color: rgb(61, 61, 61);
+}
+.icon-Tech-Stack-Logos .path2:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(90, 15, 200);
+}
+.icon-Tech-Stack-Logos .path3:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(61, 61, 61);
+}
+.icon-Tech-Stack-Logos-1:before {
+  content: "\e94b";
+  color: #eb5424;
+}
+.icon-TypeScript .path1:before {
+  content: "\e94c";
+  color: rgb(49, 120, 198);
+}
+.icon-TypeScript .path2:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Visual-Studio-Code .path1:before {
+  content: "\e94e";
+  color: rgb(0, 101, 169);
+}
+.icon-Visual-Studio-Code .path2:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(0, 122, 204);
+}
+.icon-Visual-Studio-Code .path3:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(31, 156, 240);
+}
+.icon-Visual-Studio-Code .path4:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.icon-Visual-Studio .path1:before {
+  content: "\e952";
+  color: rgb(82, 33, 138);
+}
+.icon-Visual-Studio .path2:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(108, 51, 175);
+}
+.icon-Visual-Studio .path3:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(133, 76, 199);
+}
+.icon-Visual-Studio .path4:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(177, 121, 241);
+}
+.icon-Visual-Studio .path5:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.icon-Webpack .path1:before {
+  content: "\e957";
+  color: rgb(255, 255, 255);
+}
+.icon-Webpack .path2:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(142, 214, 251);
+}
+.icon-Webpack .path3:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(28, 120, 192);
+}

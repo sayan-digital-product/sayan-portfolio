@@ -47,27 +47,6 @@ export default function Navigation(){
 								className="align-items-lg-center ml-lg-auto grid grid-cols-4 gap-4"
 								navbar
 							>
-								{socialLinks.instagram && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Instagram"
-											className="nav-link-icon"
-											href={socialLinks.instagram}
-											target="_blank"
-										>
-											<IconButton
-                                                size="large"
-                                                aria-label="Instagram"
-                                                aria-controls="primary-search-account-menu"
-                                                aria-haspopup="true"
-                                                color="inherit"
-                                                >
-                                                <Instagram />
-                                            </IconButton>
-										</NavLink>
-									</NavItem>
-								)}
 								{socialLinks.github && (
 									<NavItem>
 										<NavLink

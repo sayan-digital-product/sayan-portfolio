@@ -18,6 +18,16 @@
 	src: url('/fonts/AngillaTattoo.ttf');
 }
 
+@font-face {
+	font-family: LondonBoutique;
+	src: url('/fonts/LondonBoutique.otf');
+}
+
+@font-face {
+	font-family: bloverly;
+	src: url('/fonts/bloverly.ttf');
+}
+
 
 :root {
   --max-width: 1100px;
@@ -112,6 +122,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: sans-serif;
 }
 
 body {
@@ -127,6 +138,27 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.gap-3 {
+  gap: .75rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 @media (prefers-color-scheme: dark) {

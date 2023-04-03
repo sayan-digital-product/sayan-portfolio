@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 import CardHeader from '@mui/material/CardHeader';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import InputLabel from '@mui/material/InputLabel';
@@ -16,7 +16,7 @@ import TextareaAutosize from '@mui/base/TextareaAutosize';
 export default function ContactCard(){
 	return (
 		<section className="mx-12 my-2">
-			<Fade right duration={2000}>
+			{/* <Fade right duration={2000}> */}
                 <Card variant="outlined">
                     <CardHeader
                         title="Want to connect with me?"
@@ -70,7 +70,7 @@ export default function ContactCard(){
                         </FormControl>
                     </CardContent>
                 </Card>
-            </Fade>
+            {/* </Fade> */}
         </section>
     )
 }

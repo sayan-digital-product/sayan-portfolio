@@ -9,6 +9,8 @@ import Experience from '@/containers/experience/experience'
 import Skills from '@/containers/skills/skills'
 import Contact from '@/containers/contact/contact'
 import CodingLottie from '@/components/lottie/coding'
+import TextAnimation from '@/components/text-animation/text-animation';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,34 +23,38 @@ export default function Home() {
           <SEO />
           <main className={styles.main}>
               {/* <Navigation /> */}
-              <section className={`grid grid-cols-2 ${styles.home}`} >
-                <div className='grid grid-cols-1'>
-                  <Landing />
-                </div>
-                <div className='grid grid-cols-1'>
-                  <section className="grid grid-cols-1">
-                  </section>
-                  <section>
-                    <div className={`grid grid-cols-1 ${styles.nameFont}`}>
-                      SAYAN BANERJEE
+              {/* <Parallax pages={2}>
+			          <ParallaxLayer offset={0} speed={1} style={{ justifyContent: 'flex-end' }}> */}
+                  <section className={`grid grid-cols-2 ${styles.home}`} >
+                    <div className='grid grid-cols-1'>
+                      <Landing />
                     </div>
-                    <div>
-                      <Navigation />
+                    <div className='grid grid-cols-1'>
+                      <section className="grid grid-cols-1">
+                      </section>
+                      <section>
+                        <div className={`grid grid-cols-1 ${styles.nameFont}`}>
+                          <TextAnimation text={"SAYAN BANERJEE"} />
+                        </div>
+                        <div>
+                          <Navigation />
+                        </div>
+                      </section>
                     </div>
                   </section>
-                </div>
-              </section>
-              <section className={styles.page}>
-                <Experience />
-              </section>
-              <section className={styles.pageDark}>
-                <Skills />
-              </section>
-              <section className={`grid grid-cols-1 ${styles.page}`}>
-                <section className="grid grid-cols-1">
-                  <Contact />
-                </section>
-              </section>
+                  <section className={styles.page}>
+                    <Experience />
+                  </section>
+                  <section className={styles.page}>
+                    <Skills />
+                  </section>
+                  <section className={`grid grid-cols-1 ${styles.page}`}>
+                    <section className="grid grid-cols-1">
+                      <Contact />
+                    </section>
+                  </section>
+                {/* </ParallaxLayer>
+              </Parallax> */}
           </main>
     </>
   )
