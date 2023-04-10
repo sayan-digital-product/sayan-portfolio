@@ -1,0 +1,14 @@
+.textArea{
+    height: 100%;
+    width: 100%;
+}
+
+.tagLine{
+    font-family: CalibreRegular;
+    color: rgb(var(--secondary-text-rgb));
+}
+
+.buttonStyle{
+    color: rgb(var(--bright-blue-rgb));
+    border: 1px solid rgb(var(--bright-blue-rgb));
+}

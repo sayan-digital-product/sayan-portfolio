@@ -1,0 +1,11 @@
+.navbarContainer::after{
+    content: "";
+    width: 1px;
+    bottom: 0;
+    display: block ;
+    background-color: rgba(var(--light-blue-rgb));
+    height: 55vh;
+    position: relative;
+    left: 20px;
+    color: inherit;
+}

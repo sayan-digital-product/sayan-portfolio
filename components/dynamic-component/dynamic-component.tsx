@@ -37,9 +37,9 @@ export default function DynamicContent({ data }: {data: SkillLogo[]}) {
         {data.map((item: SkillLogo, index: number) => {
            if (item && item.component) {
             const Component = components[item.component];
-            return <Component key={index} {...item} />;
+            return <section className="my-4" key={`section_index_${index}`}><Component {...item} /></section>;
           } else {
-            return <span key={`index_${index}`}  title={item.skillName} className={item.className}></span>;
+            return <section className="my-4" key={`section_index_${index}`}><span title={item.skillName} className={item.className}></span></section>;
           }
         })}
       </>

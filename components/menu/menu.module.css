@@ -1,0 +1,27 @@
+.menuContainer::after{
+    content: "";
+    width: 1px;
+    bottom: 0;
+    display: block ;
+    background-color: rgba(var(--light-blue-rgb));
+    height: 55vh;
+    position: relative;
+    left: 20px;
+    color: inherit;
+}
+
+.menuItem::after{
+    content: "";
+    display: block;
+    /* width: 1px;
+    background-color: rgba(var(--bright-blue-rgb)); */
+    margin-bottom: 35px;
+}
+
+.calibreFont{
+    font-family: CalibreRegular;
+}
+
+a.menuLink:hover{
+    color: rgba(var(--bright-blue-rgb));
+}

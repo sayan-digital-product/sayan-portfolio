@@ -16,28 +16,28 @@ export default function ExperienceCard(item: ExperienceModel){
 
     //const item:ExperinceItemModel = data.data;
 	return (
-		<section className="mx-4 my-2">
+		<section className={item.colspan ? `mx-4 my-2 col-span-${item.colspan}` : 'mx-4 my-2'}>
 			{/* <Fade bottom duration={2000}> */}
-                <Card variant="outlined" elevation={0}>
+                <Card variant="outlined" elevation={0} className="full-height card-background">
                     <CardHeader
                         avatar={
                         <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                            R
+                            FIS
                         </Avatar>
                         }
                         title={item.role}
-                        subheader={item.date}
+                        subheader={<Typography sx={{color: '#c5c5c5', fontSize:'12px'}}>{item.date}</Typography>}
                     />
                     <CardContent>
 
-                        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                        <Typography sx={{ fontSize: '14px' }} gutterBottom>
                             {item.desc}
                         </Typography>
                             <div>
                                 <ul>
                                     {item.descBullets
                                         ? item.descBullets.map((desc) => {
-                                                return <li key={desc}>{desc}</li>;
+                                                return <li key={desc}><Typography sx={{ fontSize: '14px' }} gutterBottom>{desc}</Typography></li>;
                                         })
                                         : null}
                                 </ul>

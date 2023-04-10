@@ -8,39 +8,52 @@
 
 .home{
     width: 100%;
-    height: 100%;
     background-image: -webkit-linear-gradient(-25deg, rgba(var(--background-start-rgb)) 45%, rgba(var(--background-end-rgb)) 45%);
+    /* background: rgba(var(--background-end-rgb)); */
     min-height: calc(100vh - 48px);
     font-weight: 600;
 }
 
+.leftNavBar, .rightNavBar{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  color: rgb(var(--light-blue-rgb));
+}
+
+
 .pageDark {
   width: 100%;
-  height: 100%;
   background: rgba(var(--background-end-rgb));
   min-height: calc(100vh - 48px);
 }
 
 .page {
   width: 100%;
-  height: 100%;
   min-height: calc(100vh - 48px);
 }
 
 .wrapHeading {
   display: flex;
-  padding: 2rem;
+  padding-top: 6rem;
   justify-content: center;
+}
+
+
+.brightBlue {
+  color: rgb(var(--bright-blue-rgb));
 }
 
 
 .pageHeading {
 
   padding: .5rem;
-  border-width : 2px; 
+  font-family: CalibreBold;
+  /* border-width : 2px; 
   border-style: solid; 
   border-color: rgba(var(--primary-border-rgb));
-  box-shadow: 0px 1px 0px 1px rgba(var(--background-start-rgb));
+  box-shadow: 0px 1px 0px 1px rgba(var(--background-start-rgb)); */
 
 }
 
@@ -49,6 +62,11 @@
 }
 
 .nameFont {
-  font-family: bloverly;
+  font-family: CalibreBold;
+  font-size: 4rem;
+}
+
+.tagFont{
+  font-family: CalibreBold;
   font-size: 2rem;
 }

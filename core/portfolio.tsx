@@ -135,16 +135,8 @@ export const skills = {
           className: "icon-Nextjs"
         },
         {
-          skillName: "Jquery",
-          component: "jquery"
-        },
-        {
           skillName: "Material UI",
           className: "icon-Material-UI-MUI"
-        },
-        {
-          skillName: "Node js",
-          component: "nodejs"
         },
         {
           skillName: "Redux",
@@ -191,10 +183,6 @@ export const skills = {
           className: "icon-Tech-Stack-Logos-1"
         },
         {
-          skillName: "GraphQL",
-          className: "icon-GraphQL"
-        },
-        {
           skillName: "Typescript",
           component: "typescript"
         },
@@ -205,10 +193,6 @@ export const skills = {
         {
           skillName: "Storybook",
           component: "storybook"
-        },
-        {
-          skillName: "Cypress",
-          component: "cypress"
         },
         {
           skillName: "Nginx",
@@ -350,6 +334,16 @@ export const experience = [
     companylogo: "/img/icons/common/chamber.jpeg",
     date: "February 2015 – February 2017",
     desc: "Communicate with managers to set up computers used on in the office, Assess and troubleshoot computer problems brought by managers, faculty a. Maintain upkeep of computers, servers, and 20+ websites used by the Chamber and local businesses",
+  },
+  {
+    role: "System Engineer",
+    company: "TCS",
+    companylogo: "/img/icons/common/ovs.png",
+    date: "December 2011 - February 2015",
+    descBullets: [
+      "  As a Software Developer Intern at OVS Knife Co, I am responsible for the development and maintenance of the company's web application. Utilizing my skills in Next.js, React, MongoDB, Node.js, Django, and Express.js.",
+      "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
+    ],
   },
   {
     role: "System Engineer",

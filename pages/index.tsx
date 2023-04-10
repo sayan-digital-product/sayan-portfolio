@@ -8,9 +8,10 @@ import Landing from '@/containers/landing/landing'
 import Experience from '@/containers/experience/experience'
 import Skills from '@/containers/skills/skills'
 import Contact from '@/containers/contact/contact'
-import CodingLottie from '@/components/lottie/coding'
-import TextAnimation from '@/components/text-animation/text-animation';
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import TextAnimation from '@/components/text-animation/text-animation'
+import Typography from '@mui/material/Typography'
+import AboutMe from '@/containers/about-me/about-me'
+import Menu from '@/components/menu/menu'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,40 +22,51 @@ export default function Home() {
           Hello world!
         </h1> */}
           <SEO />
-          <main className={styles.main}>
-              {/* <Navigation /> */}
-              {/* <Parallax pages={2}>
-			          <ParallaxLayer offset={0} speed={1} style={{ justifyContent: 'flex-end' }}> */}
-                  <section className={`grid grid-cols-2 ${styles.home}`} >
-                    <div className='grid grid-cols-1'>
-                      <Landing />
-                    </div>
-                    <div className='grid grid-cols-1'>
-                      <section className="grid grid-cols-1">
-                      </section>
-                      <section>
-                        <div className={`grid grid-cols-1 ${styles.nameFont}`}>
-                          <TextAnimation text={"SAYAN BANERJEE"} />
-                        </div>
-                        <div>
-                          <Navigation />
-                        </div>
-                      </section>
-                    </div>
-                  </section>
-                  <section className={styles.page}>
-                    <Experience />
-                  </section>
-                  <section className={styles.page}>
-                    <Skills />
-                  </section>
-                  <section className={`grid grid-cols-1 ${styles.page}`}>
-                    <section className="grid grid-cols-1">
-                      <Contact />
+          <main className="grid grid-cols-12 gap-4">
+              <section className="grid justify-items-center col-span-1">
+                <div className={styles.leftNavBar}>
+                  <Navigation />
+                </div>
+              </section>
+              <section className="col-span-9">
+                    <section className={`grid grid-cols-2 gap-4 ${styles.home}`} >
+                      <div className='grid grid-cols-1'>
+                        <Landing />
+                      </div>
+                      <div className='grid grid-cols-1 content-center'>
+                          <div className="">
+                            <Typography variant="h2">
+                              <span className={styles.nameFont}>Sayan Banerjee.</span>
+                            </Typography>
+                            <Typography variant='h6'>
+                              <p><span className={styles.tagFont}>I develop applications for Web and Mobile.</span></p><br />
+                            </Typography>
+                              <p><span>I specialize in architecting and developing intuitive interfaces for complex systems. </span>
+                                <span>Through my work, I am creating digital experiences that are as delightful and effective.</span>
+                              </p>
+                          </div>
+                      </div>
                     </section>
-                  </section>
-                {/* </ParallaxLayer>
-              </Parallax> */}
+                    <section id="experience" className={styles.page}>
+                      <Experience />
+                    </section>
+                    <section id="skills" className={styles.page}>
+                      <Skills />
+                    </section>
+                    <section id="aboutme" className={styles.page}>
+                      <AboutMe />
+                    </section>
+                    <section id="contact" className={`grid grid-cols-1 ${styles.page}`}>
+                      <section className="grid grid-cols-1">
+                        <Contact />
+                      </section>
+                    </section>
+              </section>
+              <section className="col-span-2">
+                <div className={styles.rightNavBar}>
+                  <Menu />
+                </div>
+              </section>
           </main>
     </>
   )

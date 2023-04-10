@@ -2,11 +2,8 @@
 import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
 
-import { greetings, socialLinks } from "../../core/portfolio";
-import Link from "next/link";
+import { socialLinks } from "../../core/portfolio";
 import {
-	UncontrolledCollapse,
-	NavbarBrand,
 	Navbar,
 	NavItem,
 	NavLink,
@@ -15,17 +12,12 @@ import {
 
 
 import IconButton from "@mui/material/IconButton";
-import { Instagram, GitHub, Twitter, LinkedIn } from "@mui/icons-material";
+import { GitHub, Twitter, LinkedIn } from "@mui/icons-material";
+import styles from "./navigation.module.css";
 
 
 
 export default function Navigation(){
-
-	// useEffect(() => {
-	// 	let headroom = new Headroom(document.getElementById("navbar-main"));
-	// 	// initialise
-	// 	headroom.init();
-	// });
 
 	return (
 		<>
@@ -36,15 +28,11 @@ export default function Navigation(){
 					id="navbar-main"
                    position={'sticky'}
 				>
-                        <div className="grid grid-cols-2 grid-rows-1 gap-4">
-                            {/* <NavbarBrand href="/" className="grid grid-cols-1">
-                                <h2 className="text-white" id="nav-title">
-                                    {greetings.name}
-                                </h2>
-                            </NavbarBrand> */}
-                            <div className="grid grid-cols-2">
+                        <div className="grid-rows-4 gap-4">
+
+                            <div className="">
                             <Nav
-								className="align-items-lg-center ml-lg-auto grid grid-cols-4 gap-4"
+								className={`align-items-lg-center ml-lg-auto ${styles.navbarContainer}`}
 								navbar
 							>
 								{socialLinks.github && (

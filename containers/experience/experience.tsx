@@ -15,10 +15,10 @@ export default function Experience() {
 								</div>
 							</div>
 							<div className={`pl-4 ${styles.wrapHeading}`}>
-								<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}>EXPERIENCE</Typography>
+								<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={styles.brightBlue}>01.</span> Experience</Typography>
 							</div>
 						</div>
-						<section className="grid grid-cols-2 mt-10">
+						<section className="grid grid-cols-3">
 									{experience.map((data, i) => {
 										return <ExperienceCard key={i} {...data} />;
 									})}
