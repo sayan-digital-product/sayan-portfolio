@@ -12,6 +12,7 @@ import TextAnimation from '@/components/text-animation/text-animation'
 import Typography from '@mui/material/Typography'
 import AboutMe from '@/containers/about-me/about-me'
 import Menu from '@/components/menu/menu'
+import Projects from '@/containers/projects/projects'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -47,14 +48,17 @@ export default function Home() {
                           </div>
                       </div>
                     </section>
-                    <section id="experience" className={styles.page}>
-                      <Experience />
+                    <section id="aboutme" className={styles.page}>
+                      <AboutMe />
                     </section>
                     <section id="skills" className={styles.page}>
                       <Skills />
                     </section>
-                    <section id="aboutme" className={styles.page}>
-                      <AboutMe />
+                    <section id="experience" className={styles.page}>
+                      <Experience />
+                    </section>
+                    <section id="projects" className={styles.page}>
+                      <Projects />
                     </section>
                     <section id="contact" className={`grid grid-cols-1 ${styles.page}`}>
                       <section className="grid grid-cols-1">
@@ -62,7 +66,7 @@ export default function Home() {
                       </section>
                     </section>
               </section>
-              <section className="col-span-2">
+              <section className="grid justify-items-center col-span-2">
                 <div className={styles.rightNavBar}>
                   <Menu />
                 </div>

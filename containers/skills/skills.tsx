@@ -3,12 +3,11 @@ import { skills } from '@/core/portfolio';
 
 import styles from '@/styles/Home.module.css'
 import { Typography } from "@mui/material";
-import Paper from "@mui/material/Paper";
 import style from "./skills.module.css";
 
 import AngularIcon from "@/brand-icons/angular/angular-icon";
 import DynamicComponent from '@/components/dynamic-component/dynamic-component';
-
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
 
 export default function Skills() {
@@ -31,28 +30,21 @@ export default function Skills() {
 					</div>
 				</div>
 			</section>
-			<section className="mx-4 my-4">
-				<Paper elevation={2} className="grid grid-cols-3 gap-3 full-height card-background">
-					<section className="col-span-2">
-						<section className={`full-height ${style.appFontColor}`}>
-							<div className="grid justify-center my-2">
-									<Typography variant='h5'>
-											{skills.software?.title}
-									</Typography>
-							</div>
+			<section className="mx-4 my-4 grid grid-cols-4 gap-3 full-height">
+				{/* <Paper elevation={2} className="grid grid-cols-3 gap-3 full-height card-background"> */}
+					<section className="col-span-3 p-4">
+						<section className={style.appFontColor}>
+								{skills.software.items.map((item: string, index: number) => {
+									return <div key={index} className='grid grid-cols-12 pb-4'> <SettingsOutlinedIcon className={`col-span-1 ${style.brightFont}`}/><span className='col-span-11'>{item}</span></div>
+								})}
 						</section>
 					</section>
 					<section>
-							<div className="grid justify-center my-2">
-								<Typography variant='h5'className={style.appFontColor}>
-										{skills.software?.title}
-								</Typography>
-							</div>
-							<div className="grid grid-cols-6 p-4">
-								<DynamicComponent data={skills.software.data} />
-							</div>
+						<div className="grid grid-cols-4 p-4">
+							<DynamicComponent data={skills.software.data} />
+						</div>
 					</section>
-				</Paper>
+				{/* </Paper> */}
 			</section>
 		</>
     )

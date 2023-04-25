@@ -15,7 +15,7 @@ export default function Contact() {
 						</div>
 					</div>
 					<div className={`pl-4 ${styles.headingCenter} ${styles.wrapHeading}`}>
-						<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={styles.brightBlue}>04. </span>Stay in touch</Typography>
+						<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={styles.brightBlue}>05. </span>Stay in touch</Typography>
 					</div>
 				</section>
                 <section className="grid grid-cols-1 mt-10">

@@ -1,12 +1,12 @@
 import emoji from "react-easy-emoji";
 
-export const greetings = {
-  name: "Sayan Banerjee",
-  title: "Welcome.",
-  description:
-    "I am Student / Software Developer, learning Full Stack Web Development and Cyber Security. I have experience building Applications with Vanilla JavaScript, React,  Vue,  Node,  Java,  Spring Boot, Python,  Django and some other cool libraries and frameworks.",
-  resumeLink: "https://sayanbanerjee.github.io/Resume/",
-};
+export const aboutMe = {
+  desc:[
+    "Hi! I am Sayan Banerjee, I had started my professional journey back in 2011. Since then I fell in love with Web development. I have worked on several technology and programming languages till date.",
+    "Currently I am working as Senior UI Architect. I have developed and deliver more than 15 products and hybrid mobile apps.",
+    "I have worked on domains like Banking, Energy, Manufacturing etc. I have developed several B2B and Client facing applications"
+  ]
+}
 
 export const openSource = {
   githubUserName: "sayanbanerjee",
@@ -117,6 +117,15 @@ export const skills = {
   subTitle: "PASSIONATE UI ARCHITECT WHO WANTS TO EXPLORE EVERY TECH DOMAIN",
   software: {
     title: "Software skills",
+    items: [
+      "Strong working experience with modern web frameworks such as Angular/React/Backbone/jQuery/Node.",
+      "Skilled in understanding business needs, planning the structure of technology solutions, choosing integration methods, solving any technical problems that may arise.",
+      "Extensive experience in diverse domains like Banking/Fintech/Energy.",
+      "Implemented Oauth2, OIDC and OWASP security standards.",
+      "implemented Design System in my previous organization which helped to maintain consistency and improve the user experience across multiple products and platforms.",
+      "Implemented accessible applications complaint with WCAG standards and guidelines",
+      "Have done extensive study on Design thinking and user experience principles. "
+    ],
     data: [
         {
           skillName: "Angular",
@@ -256,20 +265,6 @@ export const skills = {
   }
 }
 
-export const SkillBars = [
-  {
-    Stack: "Programming",
-  },
-  {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-  },
-  {
-    Stack: "Backend",
-  },
-  {
-    Stack: "Security",
-  },
-];
 
 export const educationInfo = [
   {
@@ -360,39 +355,36 @@ export const experience = [
 export const projects = [
   {
     name: "Brewery Locator",
-    desc: "A web application that allows users to search and review breweries in the United States. Users can search for breweries by name, city, state, or zip code. Users can also add breweries to their favorites list and leave reviews for breweries.",
+    summary: "",
+    desc: ["A web application that allows users to search and review breweries in the United States. Users can search for breweries by name, city, state, or zip code. Users can also add breweries to their favorites list and leave reviews for breweries."],
     github: "https://github.com/sayanbanerjee/BreweryLocater",
     tags: ["Java", "VueJS", "PostgreSQL"],
   },
   {
     name: "Empyrial",
-    desc: "Contributor on Empyrial, Empyrial is a Python-based open-source quantitative investment library dedicated to financial institutions and retail investors, officially released in March 2021. Already used by thousands of people working in the finance industry, Empyrial aims to become an all-in-one platform for portfolio management, analysis, and optimization.",
+    summary: "",
+    desc: ["Contributor on Empyrial, Empyrial is a Python-based open-source quantitative investment library dedicated to financial institutions and retail investors, officially released in March 2021. Already used by thousands of people working in the finance industry, Empyrial aims to become an all-in-one platform for portfolio management, analysis, and optimization."],
     github: "https://github.com/ssantoshp/Empyrial",
     link: "https://ssantoshp.github.io/Empyrial/",
     tags: ["python", "finace", "machine learning"],
   },
   {
     name: "Coontz-Web",
-    desc: "Personal Website built with Astro, Svelte, and JavaScript. Collaborated with a fellow Akron University student to build a website for a friend. Contains a blog of writeups for challenges done by the CTF team",
+    summary: "",
+    desc: ["Personal Website built with Astro, Svelte, and JavaScript. Collaborated with a fellow Akron University student to build a website for a friend. Contains a blog of writeups for challenges done by the CTF team"],
     github: "https://github.com/Coontz1/myWebsite",
     link: "https://austin-coontz.vercel.app/",
     tags: ["Astro", "TypeScript", "JavaScript"],
   },
   {
     name: "OVS Knife Co.",
-    desc: "As a Software Developer Intern at OVS Knife Co, I am responsible for the development and maintenance of the company's web application. Utilizing my skills in Next.js, React, MongoDB, Node.js, Django, and Express.js, I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
+    summary: "",
+    desc: ["As a Software Developer Intern at OVS Knife Co, I am responsible for the development and maintenance of the company's web application. Utilizing my skills in Next.js, React, MongoDB, Node.js, Django, and Express.js, I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers."],
     link: "https://granulatorknife.com/home",
     tags: ["Intern", "Full Stack", "E-Commerce"],
   },
 ];
 
-export const feedbacks = [
-  {
-    name: "Austin Coontz",
-    feedback:
-      "I was trying to make a website that is blazingly fast. I had no idea where to start. What did I do? Called my friend Brendan. I had no Idea what i Was doing! He fixed it. Website? Fast. Blazingly. Done.",
-  },
-];
 
 export const seoData = {
   title: "Sayan's Portfolio",
@@ -403,14 +395,15 @@ export const seoData = {
   keywords: [
     "Sayan Banerjee",
     "Portfolio",
-    "Full Stack Developer",
+    "Solution architect",
     "Open to work",
-    "Developer",
+    "UI Architect",
     "web developer",
-    "Empyrial",
-    "OVS Knife Co.",
-    "Canton Regional Chamber of Commerce",
-    "Akron",
-    "Ohio",
+    "FIS",
+    "TCS",
+    "Content writer",
+    "Bangalore",
+    "Bengaluru",
+    "India",
   ],
 };

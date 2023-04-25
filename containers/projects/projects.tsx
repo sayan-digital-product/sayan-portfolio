@@ -1,12 +1,12 @@
 import React from "react";
-import { experience } from "@/core/portfolio";
-import ExperienceCard from "@/components/experience-card/experience-card";
+import { projects } from "@/core/portfolio";
+import ProjectCard from "@/components/project-card/project-card";
 
 import styles from '@/styles/Home.module.css'
 import { Typography } from "@mui/material";
 
 export default function Experience() {
-	return experience && (
+	return projects && (
 				<section className="section section-lg">
 						<div className="d-flex p-4">
 							<div>
@@ -15,12 +15,12 @@ export default function Experience() {
 								</div>
 							</div>
 							<div className={`pl-4 ${styles.wrapHeading}`}>
-								<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={styles.brightBlue}>03.</span> Experience</Typography>
+								<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={styles.brightBlue}>04.</span> Projects</Typography>
 							</div>
 						</div>
 						<section className="grid grid-cols-3 full-height">
-									{experience.map((data, i) => {
-										return <ExperienceCard key={i} {...data} />;
+									{projects.map((data, i) => {
+										return <ProjectCard key={i} {...data} />;
 									})}
 						</section>
 				</section>

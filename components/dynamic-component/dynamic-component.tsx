@@ -14,6 +14,8 @@ import NginxIcon from "@/brand-icons/nginx/nginx-icon";
 import CypressIcon from "@/brand-icons/cypress/cypress-icon";
 import StorybookIcon from "@/brand-icons/storybook/storybook-icon";
 import WebpackIcon from "@/brand-icons/webpack/webpack-icon";
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
 
 
 const components: { [key: string] : any} = {
@@ -37,9 +39,12 @@ export default function DynamicContent({ data }: {data: SkillLogo[]}) {
         {data.map((item: SkillLogo, index: number) => {
            if (item && item.component) {
             const Component = components[item.component];
-            return <section className="my-4" key={`section_index_${index}`}><Component {...item} /></section>;
+            return (<section className="my-4" key={`section_index_${index}`}>
+              <Component {...item} /></section>);
           } else {
-            return <section className="my-4" key={`section_index_${index}`}><span title={item.skillName} className={item.className}></span></section>;
+            return (<section className="my-4" key={`section_index_${index}`}><Tooltip title={item?.skillName} arrow>
+              <span className={item.className}></span>
+          </Tooltip></section>);
           }
         })}
       </>
