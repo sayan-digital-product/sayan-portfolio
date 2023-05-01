@@ -18,7 +18,7 @@ export default function ContactCard(){
                 </div>
             </section>
             <section>
-                <Button size="medium" variant="outlined" className={`mt-8 ${style.buttonStyle}`}>
+                <Button size="medium" variant="outlined" className={`${style.buttonStyle}`}>
                     <a className="email-link" href="mailto:sayan.official87@gmail.com" rel="noopener noreferrer" target="_blank">Get in touch</a>
                 </Button>
             </section>

@@ -7,7 +7,8 @@
     font-family: CalibreRegular;
 }
 
-.buttonStyle{
+button.buttonStyle{
     color: rgb(var(--bright-blue-rgb));
     border: 1px solid rgb(var(--bright-blue-rgb));
+    margin-top: 2rem;
 }
