@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import data from "./coding.json"
+import data from "./Coding.json"
 
 export default function CodingLottie(){
 
