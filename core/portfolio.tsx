@@ -1,4 +1,4 @@
-import emoji from "react-easy-emoji";
+
 
 export const aboutMe = {
   desc:[

@@ -1,18 +1,12 @@
 import React from "react";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
+import data from "./coding.json"
 
-export default function CodingLottie({data}: {data: string}){
-	const options = {
-		loop: true,
-		autoplay: true,
-		path: data,
-		animationData: null
-
-	};
+export default function CodingLottie(){
 
 	return (
 		<div onClick={() => null}>
-			<Lottie options={options} />
+			<Lottie animationData={data} />
 		</div>
 	);
 };

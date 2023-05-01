@@ -8,7 +8,7 @@ export default function Landing(){
     return(
         <>
             <section>
-                <CodingLottie data="/lottie/coding.json" />
+                <CodingLottie />
             </section>
         </>
     )
