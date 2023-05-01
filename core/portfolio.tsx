@@ -28,15 +28,6 @@ export const skillsSection = {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/webdev.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
-        ),
-        emoji(
-          "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks."
-        ),
-        emoji(
-          "⚡ Cyber Security, HackTheBox Globally Ranked 534, Top 2% in PicoCTF 2022"
-        ),
       ],
       softwareSkills: [
         {
