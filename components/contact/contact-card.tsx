@@ -1,20 +1,6 @@
 import * as React from 'react';
-// import Card from '@mui/material/Card';
-// import CardActions from '@mui/material/CardActions';
-// import CardContent from '@mui/material/CardContent';
-// import Button from '@mui/material/Button';
-// import { Fade } from "react-reveal";
-// import CardHeader from '@mui/material/CardHeader';
-// import OutlinedInput from '@mui/material/OutlinedInput';
-// import InputLabel from '@mui/material/InputLabel';
-// import InputAdornment from '@mui/material/InputAdornment';
-// import FormControl from '@mui/material/FormControl';
-// import AccountCircle  from '@mui/icons-material/AccountCircle';
-// import Email  from '@mui/icons-material/Email';
-// import TextareaAutosize from '@mui/base/TextareaAutosize';
 
 import Typography from '@mui/material/Typography';
-import styles from '@/styles/Home.module.css';
 import style from './contact.module.css';
 import Button from '@mui/material/Button';
 
