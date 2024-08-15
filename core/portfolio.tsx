@@ -4,7 +4,7 @@ export const aboutMe = {
   desc:[
     "Hi! I am Sayan Banerjee, I had started my professional journey back in 2011. Since then I fell in love with Web development. I have worked on several technology and programming languages till date.",
     "Currently I am working as Senior UI Architect. I have developed and deliver more than 15 products and hybrid mobile apps.",
-    "I have worked on domains like Banking, Energy, Manufacturing etc. I have developed several B2B and Client facing applications"
+    "I have worked on domains like Banking, Energy, Manufacturing and developed several B2B and Client facing applications."
   ]
 }
 
