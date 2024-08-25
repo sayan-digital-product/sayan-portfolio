@@ -13,10 +13,59 @@ import Typography from '@mui/material/Typography'
 import AboutMe from '@/containers/about-me/about-me'
 import Menu from '@/components/menu/menu'
 import Projects from '@/containers/projects/projects'
+import { motion } from 'framer-motion';
+import { ReactNode } from 'react'
+
+
+interface SectionWrapperProps {
+  children: ReactNode;  // Define children as ReactNode, which includes anything renderable
+  id: string;           // Add other props as required
+}
+
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  const pageVariants = {
+    initial: {
+      opacity: 0,
+      x: "-100vw",
+      scale: 0.8
+    },
+    in: {
+      opacity: 1,
+      x: 0,
+      scale: 1
+    },
+    out: {
+      opacity: 0,
+      x: "100vw",
+      scale: 1.2
+    }
+  };
+  
+  const pageTransition = {
+    type: "tween",
+    ease: "anticipate",
+    duration: 0.5
+  };
+  
+
+  const SectionWrapper: React.FC<SectionWrapperProps> = ({ children, id }) => (
+    <motion.div
+      key={id}
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+      id={id}
+      className={styles.page}
+    >
+      {children}
+    </motion.div>
+  );
   return (
     <>
         {/* <h1 className="text-3xl font-bold underline">
@@ -43,27 +92,27 @@ export default function Home() {
                               <p><span className={styles.tagFont}>I develop applications for Web and Mobile.</span></p><br />
                             </Typography>
                               <p><span>I specialize in architecting and developing intuitive interfaces for complex systems. </span>
-                                <span>Through my work, I am creating digital experiences that are as delightful and effective.</span>
+                                <span>Through my work, I am creating digital experiences that are delightful and effective.</span>
                               </p>
                           </div>
                       </div>
                     </section>
-                    <section id="aboutme" className={styles.page}>
+                    <SectionWrapper id="aboutme">
                       <AboutMe />
-                    </section>
-                    <section id="skills" className={styles.page}>
+                    </SectionWrapper>
+                    <SectionWrapper id="skills">
                       <Skills />
-                    </section>
-                    <section id="experience" className={styles.page}>
-                      <Experience />
-                    </section>
-                    <section id="projects" className={styles.page}>
+                    </SectionWrapper>
+                    <SectionWrapper id="projects">
                       <Projects />
-                    </section>
-                    <section id="contact" className={`grid grid-cols-1 ${styles.page}`}>
-                      <section className="grid grid-cols-1">
+                    </SectionWrapper>
+                    <SectionWrapper id="experience">
+                      <Experience />
+                    </SectionWrapper>
+                    <section className={`grid grid-cols-1 ${styles.page}`}>
+                      <SectionWrapper  id="contact">
                         <Contact />
-                      </section>
+                      </SectionWrapper>
                     </section>
               </section>
               <section className="grid justify-items-center col-span-2">

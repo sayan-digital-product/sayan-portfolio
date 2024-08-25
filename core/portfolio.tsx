@@ -2,9 +2,14 @@
 
 export const aboutMe = {
   desc:[
-    "Hi! I am Sayan Banerjee, I had started my professional journey back in 2011. Since then I fell in love with Web development. I have worked on several technology and programming languages till date.",
-    "Currently I am working as Senior UI Architect. I have developed and deliver more than 15 products and hybrid mobile apps.",
-    "I have worked on domains like Banking, Energy, Manufacturing and developed several B2B and Client facing applications."
+    "Hi! I am Sayan Banerjee, and I embarked on my professional journey back in 2011. Over the years, I have developed a deep passion for web development, and this field has become an integral part of my life.",
+    "Throughout my career, I have had the opportunity to work with a wide range of technologies and programming languages, constantly learning and adapting to new advancements.",
+    "Currently, I am working as a Senior UI Architect, where I lead the development and delivery of innovative digital solutions. To date, I have successfully developed and launched over 15 products and hybrid mobile applications.",
+    "My expertise extends across various domains, including Banking, Energy, and Manufacturing, where I have played a pivotal role in creating both B2B and client-facing applications.",
+    "I am particularly passionate about different aspects of technology, from frontend to backend development, solutioning, performance optimization, DevOps, and AI, which allows me to approach problems holistically and deliver comprehensive solutions.",
+    "I have implement design systems that enhance consistency and user experience across multiple platforms and products.",
+    "In addition to my technical skills, I am passionate about mentoring and have conducted numerous training sessions to help junior developers grow and excel in their careers.",
+    "My dedication to web accessibility is reflected in the accessible applications I have built, ensuring compliance with WCAG standards and promoting inclusivity for all users."
   ]
 }
 
@@ -20,102 +25,20 @@ export const socialLinks = {
   twitter: "https://sayanbanerjee.twitter.com"
 };
 
-export const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  data: [
-    {
-      title: "Full Stack Development",
-      lottieAnimationFile: "/lottie/webdev.json", // Path of Lottie Animation JSON File
-      skills: [
-      ],
-      softwareSkills: [
-        {
-          skillName: "python",
-          fontAwesomeClassname: "logos:python",
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "logos:java",
-        },
-        {
-          skillName: "reactjs",
-          fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "vuejs",
-          fontAwesomeClassname: "logos:vue",
-        },
-        {
-          skillName: "nodejs",
-          fontAwesomeClassname: "logos:nodejs-icon",
-        },
-        {
-          skillName: "astro",
-          fontAwesomeClassname: "vscode-icons:file-type-astro",
-        },
-        {
-          skillName: "npm",
-          fontAwesomeClassname: "logos:npm-icon",
-        },
-        {
-          skillName: "cpp",
-          fontAwesomeClassname: "logos:c-plusplus",
-        },
-        {
-          skillName: "php",
-          fontAwesomeClassname: "logos:php",
-        },
-        {
-          skillName: "yarn",
-          fontAwesomeClassname: "logos:yarn",
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "logos:postgresql",
-        },
-        {
-          skillName: "MySQL-icon",
-          fontAwesomeClassname: "logos:mysql-icon",
-        },
-        {
-          skillName: "Vercel",
-          fontAwesomeClassname: "logos:vercel-icon",
-        },
-        {
-          skillName: "NextJS",
-          fontAwesomeClassname: "logos:nextjs-icon",
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "logos:mongodb-icon",
-        }, 
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "logos:django-icon",
-        },
-        {
-          skillName: "spring-boot",
-          fontAwesomeClassname: "logos:spring-icon",
-        },
-      ],
-    },
-  ],
-};
-
 export const skills = {
   title: "What I use",
   subTitle: "PASSIONATE UI ARCHITECT WHO WANTS TO EXPLORE EVERY TECH DOMAIN",
   software: {
     title: "Software skills",
     items: [
-      "Strong working experience with modern web frameworks such as Angular/React/Backbone/jQuery/Node.",
-      "Skilled in understanding business needs, planning the structure of technology solutions, choosing integration methods, solving any technical problems that may arise.",
-      "Extensive experience in diverse domains like Banking/Fintech/Energy.",
-      "Implemented Oauth2, OIDC and OWASP security standards.",
-      "implemented Design System in my previous organization which helped to maintain consistency and improve the user experience across multiple products and platforms.",
-      "Implemented accessible applications complaint with WCAG standards and guidelines",
-      "Have done extensive study on Design thinking and user experience principles. "
+      "Strong working experience with modern web frameworks such as Angular (2-18), React, AngularJS, jQuery, and Node.js.",
+      "Skilled in understanding business needs, planning the structure of technology solutions, choosing integration methods, and solving any technical problems that may arise.",
+      "Extensive experience in diverse domains like Banking, Fintech, and Energy, allowing for domain-specific optimizations in the technology stack and solutions.",
+      "Implemented OAuth2, OIDC, and OWASP security standards, ensuring robust authentication and security practices in web applications.",
+      "Implemented Design System in my previous organization, which helped maintain consistency and improve the user experience across multiple products and platforms.",
+      "Implemented accessible applications compliant with WCAG standards and guidelines, ensuring inclusivity and accessibility for all users.",
+      "Conducted mentorship programs and training sessions for junior developers, fostering skill development and knowledge sharing within the team.",
+      "Have conducted extensive study on Design Thinking and user experience principles, applying this knowledge to create user-centered designs and intuitive interfaces."
     ],
     data: [
         {
@@ -256,36 +179,6 @@ export const skills = {
   }
 }
 
-
-export const educationInfo = [
-  {
-    schoolName: "Akron University",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "August 2021 - Present",
-    grade: "3.8 GPA",
-    desc: "Programming CIS degree",
-    descBullets: [
-      "The Bachelor of Science in Computer Information Systems (CIS) - Programming degree option allows students to attain knowledge of effective software application development, client/server application development, and database application development and management for businesses.",
-      "The CIS - Programming degree option is designed to prepare students for careers in the field of software engineering and development.",
-    ],
-    github: "https://github.com/sayanbanerjee/akron/",
-  },
-  {
-    schoolName: "Tech Elevator",
-    subHeader: "Full Stack Development",
-    duration: "September 2020 - December 2020",
-    desc: "Programming Bootcamp to learn Full Stack Development",
-    descBullets: [
-      "  Object-Oriented Programming: Java",
-      "  Web Application Development: HTML, CSS, JavaScript, Vue.js, APIs using Spring Boot, Tomcat",
-      "  Database Programming: Spring JDBC/DAO, Table Design, SQL, PostgreSQL, E/R diagrams",
-      "  Completed 1000+ hours of Java, Spring, SQL, and JavaScript training",
-      "  Completed 100+ hours of pair programming on group projects",
-    ],
-    github: "https://github.com/sayanbanerjee/BreweryLocater",
-  },
-];
-
 export const experience = [
   {
     role: "Senior IT Architect",
@@ -293,87 +186,153 @@ export const experience = [
     companylogo: "/img/icons/common/ovs.png",
     date: "October 2021 - Present",
     descBullets: [
-      "  As a Software Developer Intern at OVS Knife Co, I am responsible for the development and maintenance of the company's web application. Utilizing my skills in Next.js, React, MongoDB, Node.js, Django, and Express.js.",
-      "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
+      "  Working as Senior Technical Architect in UI/UX CoE team.",
+      "  Provide services to product teams in terms of creating architectural runway, implementing solutions for complex challenges, providing recommendations and consultancies.",
+      "  Building a product in collaboration with AI CoE from the scratch to automate any business process document generation.",
+      "  Mentor developers from different units of organization and conduct frequent training sessions.",
+      "  Responsible to define strategy for progress of CoE, worked on to implement inner source concept, evaluated tools and research work on development acceleration.",
+      "  Work independently also as individual contributor to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
     ],
   },
   {
-    role: "UI Architect",
-    company: "Primesoft INC",
-    companylogo: "/img/icons/common/chamber.jpeg",
-    date: "November 2018 – October 2021",
-    desc: "Communicate with managers to set up computers used on in the office, Assess and troubleshoot computer problems brought by managers, faculty a. Maintain upkeep of computers, servers, and 20+ websites used by the Chamber and local businesses",
+      role: "UI Architect",
+      company: "Primesoft IP Solutions",
+      companylogo: "",  // Add company logo if available
+      date: "November 2018 - Present",
+      descBullets: [
+        "Describing best-fit architecture according to client requirement, setup development process, define deployment and hosting strategy.",
+        "Coordinating with product managers, played a key role in terms of requirement analysis, and provided critical inputs during the requirement gathering phase.",
+        "Leading a large team with a different set of people, handled multiple products at a time and delivered successfully",
+        "Defining & executing the solution and supporting its lifecycle in production using a DevOps approach.",
+        "Liaised with business stakeholders, cross-functional teams, and leading by example to other engineering groups.",
+        "Conducting complex design, maintenance, testing, implementation of software projects and products."
+      ]
   },
   {
-    role: "UI Lead",
-    company: "Spire Technologies",
-    companylogo: "/img/icons/common/ovs.png",
-    date: "February 2017 - September 2018",
-    descBullets: [
-      "  As a Software Developer Intern at OVS Knife Co, I am responsible for the development and maintenance of the company's web application. Utilizing my skills in Next.js, React, MongoDB, Node.js, Django, and Express.js.",
-      "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
-    ],
+    "role": "UI Lead",
+    "company": "Spire Technologies",
+    "companylogo": "/img/icons/common/ovs.png",  // Add company logo if available
+    "date": "February 2017 - September 2018",
+    "descBullets": [
+      "Worked as front end lead developer and manager, delivered the product for talent ship and talent mapping AI software for HRM domain.",
+      "Individually responsible in terms of architecture and solution design of the product front end.",
+      "Administered team of 8-10 members, successfully developed and delivered the product with the highest quality from scratch, and also participated in use cases related discussions and requirement definition for the product.",
+      "Coordinated with UX team to transform the requirement into UX wireframes and then to UI solution.",
+      "Played Product manager's role for two months in the project and came up with important features for a US client."
+    ]
   },
   {
-    role: "Senior Software Engineer",
-    company: "Mphasis",
-    companylogo: "/img/icons/common/chamber.jpeg",
-    date: "February 2015 – February 2017",
-    desc: "Communicate with managers to set up computers used on in the office, Assess and troubleshoot computer problems brought by managers, faculty a. Maintain upkeep of computers, servers, and 20+ websites used by the Chamber and local businesses",
+    "role": "Senior Web Developer",
+    "company": "Mphasis",
+    "companylogo": "/img/icons/common/ovs.png",  // Add company logo if available
+    "date": "February 2015 - February 2017",
+    "descBullets": [
+      "Worked with the client from the energy domain and implemented in-house applications, built SDK for all applications across different business units.",
+      "Applied core reusable components using AngularJS, implemented branding logic across organizational applications.",
+      "Implemented core authentication & authorization components with the handling of refresh token use case and cross-site request forgery use case.",
+      "Established and managed Bill of Material and Pricing modules for in-house applications and led both front and backend of the product.",
+      "Developed Web SDK framework and SDK portal to handle branding and generate core UI components across all in-house apps and managed Agile team in a test-driven development environment."
+    ]
   },
   {
-    role: "System Engineer",
-    company: "TCS",
-    companylogo: "/img/icons/common/ovs.png",
-    date: "December 2011 - February 2015",
-    descBullets: [
-      "  As a Software Developer Intern at OVS Knife Co, I am responsible for the development and maintenance of the company's web application. Utilizing my skills in Next.js, React, MongoDB, Node.js, Django, and Express.js.",
-      "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
-    ],
-  },
-  {
-    role: "System Engineer",
-    company: "TCS",
-    companylogo: "/img/icons/common/ovs.png",
-    date: "December 2011 - February 2015",
-    descBullets: [
-      "  As a Software Developer Intern at OVS Knife Co, I am responsible for the development and maintenance of the company's web application. Utilizing my skills in Next.js, React, MongoDB, Node.js, Django, and Express.js.",
-      "  I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
-    ],
+    "role": "System Engineer",
+    "company": "Tata Consultancy Services",
+    "companylogo": "/img/icons/common/ovs.png",  // Add company logo if available
+    "date": "December 2011 - February 2015",
+    "descBullets": [
+      "Recreated TCS Bancs software core to generate web pages with advanced object-oriented JavaScript, jQuery widgets.",
+      "Developed multiple re-usable jQuery widgets and plugins in the process.",
+      "Used CSS3 and media query to style responsive web pages.",
+      "Implemented TCS Bancs user interface for more than 50 clients using advanced JavaScript and jQuery.",
+      "Led a team of 4 members and participated in client meetings."
+    ]
   }
 ];
 
 export const projects = [
-  {
-    name: "Brewery Locator",
-    summary: "",
-    desc: ["A web application that allows users to search and review breweries in the United States. Users can search for breweries by name, city, state, or zip code. Users can also add breweries to their favorites list and leave reviews for breweries."],
-    github: "https://github.com/sayanbanerjee/BreweryLocater",
-    tags: ["Java", "VueJS", "PostgreSQL"],
+    {
+      "name": "Transactional Banking Application For Cash And Liquidity Management",
+      "summary": "Implemented core functionalities for a transaction banking application focusing on liquidity and cash management.",
+      "desc": [
+          "Implemented core functionalities for a transaction banking application.",
+          "Developed key UI components for liquidity and cash management software.",
+          "Gathered extensive domain knowledge on core liquidity functionalities like intercompany loans, liquidity management sweeps, and notional pools."
+      ],
+      "github": "",  // Add GitHub link if available
+      "tags": ["Banking", "Liquidity Management", "JavaScript", "Angular"]
   },
   {
-    name: "Empyrial",
-    summary: "",
-    desc: ["Contributor on Empyrial, Empyrial is a Python-based open-source quantitative investment library dedicated to financial institutions and retail investors, officially released in March 2021. Already used by thousands of people working in the finance industry, Empyrial aims to become an all-in-one platform for portfolio management, analysis, and optimization."],
-    github: "https://github.com/ssantoshp/Empyrial",
-    link: "https://ssantoshp.github.io/Empyrial/",
-    tags: ["python", "finace", "machine learning"],
+    "name": "Cash Flow Forecasting Application",
+    "summary": "Developed a cash flow forecasting software for corporate users.",
+    "desc": [
+        "Implemented a cash flow forecasting banking software for corporate users.",
+        "Played a crucial role from requirement analysis, solutioning, to software development.",
+        "As Tribe Lead managed team to develop end to end application. Implemented the Architecture and the UI product for corporates to forecast liquid cash."
+    ],
+    "github": "",  // Add GitHub link if available
+    "tags": ["Banking", "Forecasting", "JavaScript", "Angular"]
   },
   {
-    name: "Coontz-Web",
-    summary: "",
-    desc: ["Personal Website built with Astro, Svelte, and JavaScript. Collaborated with a fellow Akron University student to build a website for a friend. Contains a blog of writeups for challenges done by the CTF team"],
-    github: "https://github.com/Coontz1/myWebsite",
-    link: "https://austin-coontz.vercel.app/",
-    tags: ["Astro", "TypeScript", "JavaScript"],
+    "name": "Investment and Portfolio Management Application & Dashboard",
+    "summary": "Built a dashboard to track investment value changes for corporate entities.",
+    "desc": [
+        "Implemented an investment portfolio dashboard to track the corporation’s investment value.",
+        "Application listed opportunities where stagnant cash could be invested by analyzing past performance of funds, bonds, or opportunities."
+    ],
+    "github": "",  // Add GitHub link if available
+    "tags": ["Investment Management", "Dashboard", "JavaScript", "Angular"]
   },
   {
-    name: "OVS Knife Co.",
-    summary: "",
-    desc: ["As a Software Developer Intern at OVS Knife Co, I am responsible for the development and maintenance of the company's web application. Utilizing my skills in Next.js, React, MongoDB, Node.js, Django, and Express.js, I work independently to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers."],
-    link: "https://granulatorknife.com/home",
-    tags: ["Intern", "Full Stack", "E-Commerce"],
+    "name": "ReactJS Enterprise Application for Factory Automation Client",
+    "summary": "Designed and developed a UI architecture using ReactJS for factory automation.",
+    "desc": [
+        "Implemented application UI architecture with ReactJS, React Hooks, Redux, and Material UI.",
+        "Applied best practices and set up a CI/CD strategy with Jenkins automation server."
+    ],
+    "github": "",  // Add GitHub link if available
+    "tags": ["ReactJS", "Factory Automation", "CI/CD", "Jenkins"]
   },
+  {
+    "name": "Design System, Implementation of Component and Pattern Libraries",
+    "summary": "Developed component and pattern libraries based on the Atomic design concept.",
+    "desc": [
+        "Implemented component and pattern libraries in line with the Atomic design concept.",
+        "Developed core and composite components using Angular and Clarity design library."
+    ],
+    "github": "",  // Add GitHub link if available
+    "tags": ["Design System", "Component Library", "Angular", "Clarity"]
+  },
+  {
+    "name": "Talentship Mapping And Management",
+    "summary": "Architected and designed a talent management product in the HRM domain.",
+    "desc": [
+        "Provided a talent ship and management product for the HRM domain.",
+        "Led a team to develop and deliver the product from scratch.",
+        "Solely responsible for the architecture and solution design of the product frontend."
+    ],
+    "github": "",  // Add GitHub link if available
+    "tags": ["HRM", "Talent Management", "JavaScript", "Angular"]
+  },
+  {
+    "name": "Core UI Components For In-House Applications (SDK)",
+    "summary": "Developed a web SDK framework for building core UI components across applications.",
+    "desc": [
+        "Worked with clients from the energy domain to build in-house applications.",
+        "Developed a web SDK framework and SDK portal for generating core UI components."
+    ],
+    "github": "",  // Add GitHub link if available
+    "tags": ["SDK", "AngularJS", "Energy Domain", "UI Components"]
+  },
+  {
+    "name": "TCS Bancs Core, To Generate UI Components And Pages For Banking Clients",
+    "summary": "Recreated TCS Bancs software core for advanced UI generation.",
+    "desc": [
+        "Recreated TCS Bancs software core to produce web pages using advanced JavaScript and jQuery.",
+        "Developed multiple reusable jQuery widgets and plugins."
+    ],
+    "github": "",  // Add GitHub link if available
+    "tags": ["Banking", "jQuery", "JavaScript", "UI Components"]
+ }
 ];
 
 
@@ -386,7 +345,6 @@ export const seoData = {
   keywords: [
     "Sayan Banerjee",
     "Portfolio",
-    "Solution architect",
     "Open to work",
     "UI Architect",
     "web developer",
@@ -396,5 +354,15 @@ export const seoData = {
     "Bangalore",
     "Bengaluru",
     "India",
+    "Angular",
+    "React",
+    "Solution Architect",
+    "Frontend Architect",
+    "Solution design",
+    "Problem solver",
+    "nodejs",
+    "nx",
+    "javascript",
+    "nextjs"
   ],
 };

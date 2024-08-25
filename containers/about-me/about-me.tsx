@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import style from "./about-me.module.css";
 import Paper from '@mui/material/Paper';
 import  AboutMeSection from '@/components/about-me/about-me';
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 
 import {aboutMe } from "@/core/portfolio";
 
@@ -23,18 +24,18 @@ export default function AboutMe() {
 							</div>
 						</div>
 			</section>
-            <section className="mx-4 my-4 grid grid-cols-2 gap-3 full-height">
+            <section className="mx-4 my-4 grid grid-cols-1 gap-3 full-height">
 				{/* <Paper elevation={2} className="grid grid-cols-3 gap-3 full-height card-background"> */}
 					<section className="col-span-1">
 						<section className={`full-height ${style.appFontColor}`}>
 							<div className="grid justify-center my-2">
 									{aboutMe.desc.map((data: string, index:number) => {
-										return <AboutMeSection key={index} data={data} />
+										return  <div key={index} className='grid grid-cols-12 pb-4'> <SettingsOutlinedIcon className={`col-span-1 ${style.brightFont}`} /><span className='col-span-11'><AboutMeSection key={index} data={data} /></span></div>
 									})}
 							</div>
 						</section>
 					</section>
-					<section>
+					{/* <section>
 							<div className="grid justify-center my-2">
 								<Typography variant='h5'className={style.appFontColor}>
 										
@@ -43,7 +44,7 @@ export default function AboutMe() {
 							<div className="grid grid-cols-6 p-4">
 								
 							</div>
-					</section>
+					</section> */}
 				{/* </Paper> */}
 			</section>
         </>

@@ -5,3 +5,7 @@
 .appFontColor{
     color: rgb(var(--light-blue-rgb));
 }
+
+.brightFont {
+    color: rgb(var(--bright-blue-rgb));
+}

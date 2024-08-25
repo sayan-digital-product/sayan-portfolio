@@ -6,6 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
+import { motion } from 'framer-motion';
 // import { Fade } from "react-reveal";
 import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
@@ -17,6 +18,7 @@ export default function ProjectCard(item: ProjectModel){
     //const item:ExperinceItemModel = data.data;
 	return (
 		<section className={item.colspan ? `mx-4 my-2 col-span-${item.colspan}` : 'mx-4 my-2'}>
+             <motion.div whileHover={{ scale:1.04}} className='full-height'>
 			{/* <Fade bottom duration={2000}> */}
                 <Card variant="outlined" elevation={0} className="full-height card-background">
                     <CardHeader
@@ -39,10 +41,10 @@ export default function ProjectCard(item: ProjectModel){
                             </div>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">Learn More</Button>
+                        {/* <Button size="small">Learn More</Button> */}
                     </CardActions>
                 </Card>
-			{/* </Fade> */}
+            </motion.div>
 		</section>
 	);
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import { experience } from "@/core/portfolio";
 import ExperienceCard from "@/components/experience-card/experience-card";
-
 import styles from '@/styles/Home.module.css'
 import { Typography } from "@mui/material";
 

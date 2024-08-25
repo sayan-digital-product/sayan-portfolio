@@ -33,8 +33,8 @@
 
   --light-blue-rgb:214, 214, 214;
   --foreground-rgb: 245, 235, 235;
-  --background-start-rgb: 79, 79, 81;
-  --background-end-rgb: 44, 43, 48;
+  --background-start-rgb:  45, 63, 98;
+  --background-end-rgb: 27, 38, 59;
   --bright-blue-rgb: 97, 218, 251;
   --secondary-text-rgb: 147, 156, 183;
 
@@ -68,15 +68,15 @@
 
   --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 79, 79, 81;
+  --card-rgb: 43, 60, 79;
   --card-border-rgb: 131, 134, 135;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: #234257;
+    --background-end-rgb: #060B0F;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
@@ -127,6 +127,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 .grid-cols-3 {
