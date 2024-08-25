@@ -159,8 +159,8 @@ a:hover {
 }
 
 .card-background {
-  background-color: rgba(var(--card-rgb));
-  color: rgb(var(--light-blue-rgb));
+  background-color: rgba(var(--card-rgb)) !important;
+  color: rgb(var(--light-blue-rgb)) !important;
 }
 
 @media (prefers-color-scheme: dark) {
