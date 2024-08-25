@@ -1,4 +1,4 @@
-import { faBank, faChartLine, faSolarPanel, faHandHoldingDollar, faIndustry, faAtom, faLayerGroup, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import { faBank, faChartLine, faSolarPanel, faHandHoldingDollar, faIndustry, faAtom, faLayerGroup, faScrewdriverWrench, faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
 
 export const aboutMe = {
   desc:[
@@ -20,9 +20,9 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  github: "https://github.com/sayanbanerjee",
+  github: "https://github.com/sayan-digital-product",
   linkedin: "https://www.linkedin.com/in/sayan-banerjee-0007/",
-  twitter: "https://sayanbanerjee.twitter.com"
+  twitter: "https://x.com/San0387"
 };
 
 export const skills = {
@@ -258,7 +258,7 @@ export const projects = [
     {
       "name": "Transactional Banking Application For Cash And Liquidity Management",
 
-      "logo": faBank,
+      "logo": faMoneyBillTransfer,
       "desc": [
           "Implemented core functionalities for a transaction banking application.",
           "Developed key UI components for liquidity and cash management software.",
