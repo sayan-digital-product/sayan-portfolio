@@ -27,7 +27,7 @@ export default function ProjectCard(item: ProjectModel){
                 <Card variant="outlined" elevation={0} className="full-height card-background">
                     <CardHeader
                         avatar={
-                            <Avatar sx={{background: blueGrey[600]}} variant='circular'> <FontAwesomeIcon  icon={item.logo} /> </Avatar>
+                            <Avatar sx={{background: blueGrey[600]}} variant='circular'> <FontAwesomeIcon  icon={item.logo} fixedWidth/> </Avatar>
                         }
                         title={<Typography sx={{fontSize:'16px'}}>{item.name}</Typography>}
                         subheader={<Typography sx={{color: '#c5c5c5', fontSize:'12px'}}>{item.summary}</Typography>}
