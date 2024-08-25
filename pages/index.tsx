@@ -89,10 +89,12 @@ export default function Home() {
                               <span className={styles.nameFont}>Sayan Banerjee.</span>
                             </Typography>
                             <Typography variant='h6'>
-                              <p><span className={styles.tagFont}>I develop applications for Web and Mobile.</span></p><br />
+                              <p><span className={styles.tagFont}>Crafting Digital Solutions Across Web, Mobile, and Beyond</span></p><br />
                             </Typography>
-                              <p><span>I specialize in architecting and developing intuitive interfaces for complex systems. </span>
-                                <span>Through my work, I am creating digital experiences that are delightful and effective.</span>
+                              <p>
+                                <span>I specialize in architecting and developing intuitive interfaces for complex systems, from frontend to backend. </span>
+                                <span>With over a decade of experience, I create digital experiences that are not only delightful and effective but also scalable and secure. </span> 
+                                <span>My passion extends across various aspects of technology, including performance optimization, DevOps, and AI, ensuring that every solution I build is comprehensive and future-ready.</span>
                               </p>
                           </div>
                       </div>
