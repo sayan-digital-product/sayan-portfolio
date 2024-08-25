@@ -5,7 +5,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
+import { blueGrey, red } from '@mui/material/colors';
 import Avatar from '@mui/material/Avatar';
 import { motion } from 'framer-motion';
 import CardHeader from '@mui/material/CardHeader';
@@ -20,13 +20,11 @@ export default function ExperienceCard(item: ExperienceModel){
                 <motion.div whileHover={{ scale:1.04}} className='full-height'>
                     <Card variant="outlined" elevation={0} className="full-height card-background">
                         <CardHeader
-                            avatar={
-                            <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                                FIS
-                            </Avatar>
+                         avatar={
+                            <Avatar sx={{background: blueGrey[600]}} variant='circular'>{<Typography sx={{fontSize:'16px'}}>{item.shortName}</Typography>}</Avatar>
                             }
-                            title={item.role}
-                            subheader={<Typography sx={{color: '#c5c5c5', fontSize:'12px'}}>{item.date}</Typography>}
+                            title={<Typography sx={{fontSize:'16px'}}>{item.role}</Typography>}
+                            subheader={<Typography sx={{color: '#c5c5c5', fontSize:'12px'}}>{`${item.company} | ${item.date}`}</Typography>}
                         />
                         <CardContent>
 

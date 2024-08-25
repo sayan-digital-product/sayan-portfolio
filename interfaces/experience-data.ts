@@ -4,6 +4,7 @@ export interface ExperienceModel {
     role: string;
     company: string;
     companylogo: string;
+    shortName?: string;
     date: string;
     desc?: string;
     descBullets?: string[];

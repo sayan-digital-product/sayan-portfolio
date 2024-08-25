@@ -5,12 +5,16 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
-import { motion } from 'framer-motion';
+import { blue, blueGrey, deepPurple, green, grey, red, teal } from '@mui/material/colors';
+import { color, motion } from 'framer-motion';
 // import { Fade } from "react-reveal";
 import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import { ProjectModel } from '@/interfaces/project-data';
+import Icon from '@mui/material/Icon';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBank, faChartLine, faSolarPanel, faHandHoldingDollar, faIndustry, faAtom } from '@fortawesome/free-solid-svg-icons';
+import {} from '@fortawesome/free-brands-svg-icons';
 
 
 export default function ProjectCard(item: ProjectModel){
@@ -23,10 +27,9 @@ export default function ProjectCard(item: ProjectModel){
                 <Card variant="outlined" elevation={0} className="full-height card-background">
                     <CardHeader
                         avatar={
-                        <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                        </Avatar>
+                            <Avatar sx={{background: blueGrey[600]}} variant='circular'> <FontAwesomeIcon  icon={item.logo} /> </Avatar>
                         }
-                        title={item.name}
+                        title={<Typography sx={{fontSize:'16px'}}>{item.name}</Typography>}
                         subheader={<Typography sx={{color: '#c5c5c5', fontSize:'12px'}}>{item.summary}</Typography>}
                     />
                     <CardContent>

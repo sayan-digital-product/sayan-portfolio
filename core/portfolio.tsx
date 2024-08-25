@@ -1,4 +1,4 @@
-
+import { faBank, faChartLine, faSolarPanel, faHandHoldingDollar, faIndustry, faAtom, faLayerGroup, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
 
 export const aboutMe = {
   desc:[
@@ -182,8 +182,9 @@ export const skills = {
 export const experience = [
   {
     role: "Senior IT Architect",
-    company: "FIS Global",
+    company: "FIS",
     companylogo: "/img/icons/common/ovs.png",
+    shortName: "FIS",
     date: "October 2021 - Present",
     descBullets: [
       "  Working as Senior Technical Architect in UI/UX CoE team.",
@@ -197,8 +198,9 @@ export const experience = [
   {
       role: "UI Architect",
       company: "Primesoft IP Solutions",
-      companylogo: "",  // Add company logo if available
+      companylogo: "/img/icons/common/ovs.png",  // Add company logo if available
       date: "November 2018 - Present",
+      shortName: "PSI",
       descBullets: [
         "Describing best-fit architecture according to client requirement, setup development process, define deployment and hosting strategy.",
         "Coordinating with product managers, played a key role in terms of requirement analysis, and provided critical inputs during the requirement gathering phase.",
@@ -213,6 +215,7 @@ export const experience = [
     "company": "Spire Technologies",
     "companylogo": "/img/icons/common/ovs.png",  // Add company logo if available
     "date": "February 2017 - September 2018",
+    "shortName": "SP",
     "descBullets": [
       "Worked as front end lead developer and manager, delivered the product for talent ship and talent mapping AI software for HRM domain.",
       "Individually responsible in terms of architecture and solution design of the product front end.",
@@ -226,6 +229,7 @@ export const experience = [
     "company": "Mphasis",
     "companylogo": "/img/icons/common/ovs.png",  // Add company logo if available
     "date": "February 2015 - February 2017",
+    "shortName": "MP",
     "descBullets": [
       "Worked with the client from the energy domain and implemented in-house applications, built SDK for all applications across different business units.",
       "Applied core reusable components using AngularJS, implemented branding logic across organizational applications.",
@@ -239,6 +243,7 @@ export const experience = [
     "company": "Tata Consultancy Services",
     "companylogo": "/img/icons/common/ovs.png",  // Add company logo if available
     "date": "December 2011 - February 2015",
+    "shortName": "TCS",
     "descBullets": [
       "Recreated TCS Bancs software core to generate web pages with advanced object-oriented JavaScript, jQuery widgets.",
       "Developed multiple re-usable jQuery widgets and plugins in the process.",
@@ -252,7 +257,8 @@ export const experience = [
 export const projects = [
     {
       "name": "Transactional Banking Application For Cash And Liquidity Management",
-      "summary": "Implemented core functionalities for a transaction banking application focusing on liquidity and cash management.",
+
+      "logo": faBank,
       "desc": [
           "Implemented core functionalities for a transaction banking application.",
           "Developed key UI components for liquidity and cash management software.",
@@ -263,7 +269,7 @@ export const projects = [
   },
   {
     "name": "Cash Flow Forecasting Application",
-    "summary": "Developed a cash flow forecasting software for corporate users.",
+    "logo": faChartLine,
     "desc": [
         "Implemented a cash flow forecasting banking software for corporate users.",
         "Played a crucial role from requirement analysis, solutioning, to software development.",
@@ -274,7 +280,7 @@ export const projects = [
   },
   {
     "name": "Investment and Portfolio Management Application & Dashboard",
-    "summary": "Built a dashboard to track investment value changes for corporate entities.",
+    "logo": faHandHoldingDollar,
     "desc": [
         "Implemented an investment portfolio dashboard to track the corporation’s investment value.",
         "Application listed opportunities where stagnant cash could be invested by analyzing past performance of funds, bonds, or opportunities."
@@ -284,7 +290,7 @@ export const projects = [
   },
   {
     "name": "ReactJS Enterprise Application for Factory Automation Client",
-    "summary": "Designed and developed a UI architecture using ReactJS for factory automation.",
+    "logo": faIndustry,
     "desc": [
         "Implemented application UI architecture with ReactJS, React Hooks, Redux, and Material UI.",
         "Applied best practices and set up a CI/CD strategy with Jenkins automation server."
@@ -294,7 +300,7 @@ export const projects = [
   },
   {
     "name": "Design System, Implementation of Component and Pattern Libraries",
-    "summary": "Developed component and pattern libraries based on the Atomic design concept.",
+    "logo": faAtom,
     "desc": [
         "Implemented component and pattern libraries in line with the Atomic design concept.",
         "Developed core and composite components using Angular and Clarity design library."
@@ -304,7 +310,7 @@ export const projects = [
   },
   {
     "name": "Talentship Mapping And Management",
-    "summary": "Architected and designed a talent management product in the HRM domain.",
+    "logo": faLayerGroup,
     "desc": [
         "Provided a talent ship and management product for the HRM domain.",
         "Led a team to develop and deliver the product from scratch.",
@@ -315,7 +321,7 @@ export const projects = [
   },
   {
     "name": "Core UI Components For In-House Applications (SDK)",
-    "summary": "Developed a web SDK framework for building core UI components across applications.",
+    "logo": faScrewdriverWrench,
     "desc": [
         "Worked with clients from the energy domain to build in-house applications.",
         "Developed a web SDK framework and SDK portal for generating core UI components."
@@ -325,7 +331,7 @@ export const projects = [
   },
   {
     "name": "TCS Bancs Core, To Generate UI Components And Pages For Banking Clients",
-    "summary": "Recreated TCS Bancs software core for advanced UI generation.",
+    "logo": faBank,
     "desc": [
         "Recreated TCS Bancs software core to produce web pages using advanced JavaScript and jQuery.",
         "Developed multiple reusable jQuery widgets and plugins."
