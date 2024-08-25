@@ -21,12 +21,12 @@ export default function Menu() {
             </li>
             <li className={style.menuItem}>
               <Link to="projects" spy={true} smooth={true} duration={500} className={`display-3 text-info ${style.calibreFont} ${style.menuLink}`}>
-                <span className={styles.brightBlue}>04.</span> Projects
+                <span className={styles.brightBlue}>03.</span> Projects
               </Link>
             </li>
 			      <li className={style.menuItem}>
               <Link to="experience" spy={true} smooth={true} duration={500} className={`display-3 text-info ${style.calibreFont} ${style.menuLink}`}>
-                <span className={styles.brightBlue}>03.</span> Experience
+                <span className={styles.brightBlue}>04.</span> Experience
               </Link>
             </li>
 			
