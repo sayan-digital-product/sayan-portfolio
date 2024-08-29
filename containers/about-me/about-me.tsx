@@ -19,12 +19,12 @@ export default function AboutMe() {
 									<i className="ni ni-briefcase-24 text-info" />
 								</div>
 							</div>
-							<div className={`pl-4 ${styles.wrapHeading}`}>
-								<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={styles.brightBlue}>01.</span> About Me</Typography>
+							<div className="pl-4 md:wrapHeading justify-flex-center">
+								<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}> About Me</Typography>
 							</div>
 						</div>
 			</section>
-            <section className="mx-4 my-4 grid grid-cols-1 gap-3 full-height">
+            <section className="mx-4 md:my-4 grid grid-cols-1 gap-3 full-height">
 				{/* <Paper elevation={2} className="grid grid-cols-3 gap-3 full-height card-background"> */}
 					<section className="col-span-1">
 						<section className={`full-height ${style.appFontColor}`}>

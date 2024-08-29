@@ -14,8 +14,8 @@ export default function Contact() {
 							<i className="ni ni-briefcase-24 text-info" />
 						</div>
 					</div>
-					<div className={`pl-4 ${styles.headingCenter} ${styles.wrapHeading}`}>
-						<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={styles.brightBlue}>05. </span>Stay in touch</Typography>
+					<div className="pl-4 md:wrapHeading justify-flex-center">
+						<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}>Stay in touch</Typography>
 					</div>
 				</section>
                 <section className="grid grid-cols-1 mt-10">

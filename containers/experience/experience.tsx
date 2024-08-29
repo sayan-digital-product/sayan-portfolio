@@ -13,11 +13,11 @@ export default function Experience() {
 									<i className="ni ni-briefcase-24 text-info" />
 								</div>
 							</div>
-							<div className={`pl-4 ${styles.wrapHeading}`}>
-								<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={styles.brightBlue}>04.</span> Experience</Typography>
+							<div className="pl-4 md:wrapHeading justify-flex-center">
+								<Typography variant="h5" className={`display-3 text-info ${styles.pageHeading}`}><span className={`hidden md:${styles.brightBlue}`}>04.</span> Experience</Typography>
 							</div>
 						</div>
-						<section className="grid grid-cols-3 full-height">
+						<section className="md:grid md:grid-cols-3 md:full-height">
 									{experience.map((data, i) => {
 										return <ExperienceCard key={i} {...data} />;
 									})}

@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 export default function ContactCard(){
 	return (
         <>
-            <section className="mx-12 grid grid-cols-4">
+            <section className="mx-4 md:mx-12 md:grid md:grid-cols-4">
                 <div className="col-span-1">
 
                 </div>

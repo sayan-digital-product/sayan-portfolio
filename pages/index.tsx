@@ -61,7 +61,7 @@ export default function Home() {
       variants={pageVariants}
       transition={pageTransition}
       id={id}
-      className={styles.page}
+      className="md:py-16"
     >
       {children}
     </motion.div>
@@ -72,29 +72,25 @@ export default function Home() {
           Hello world!
         </h1> */}
           <SEO />
-          <main className="grid grid-cols-12 gap-4">
-              <section className="grid justify-items-center col-span-1">
+          <main className="md:grid md:grid-cols-12 md:gap-4">
+              <section className="hidden md:grid md:justify-items-center md:col-span-1">
                 <div className={styles.leftNavBar}>
                   <Navigation />
                 </div>
               </section>
               <section className="col-span-9">
-                    <section className={`grid grid-cols-2 gap-4 ${styles.home}`} >
-                      <div className='grid grid-cols-1'>
+                    <section className={`md:grid md:grid-cols-2 md:gap-4 ${styles.home}`} >
+                      <div className='hidden md:grid md:grid-cols-1'>
                         <Landing />
                       </div>
                       <div className='grid grid-cols-1 content-center'>
-                          <div className="">
-                            <Typography variant="h2">
-                              <span className={styles.nameFont}>Sayan Banerjee.</span>
-                            </Typography>
-                            <Typography variant='h6'>
-                              <p><span className={styles.tagFont}>Crafting Digital Solutions Across Web, Mobile, and Beyond</span></p><br />
-                            </Typography>
+                          <div className="mx-4 my-6 md:my2">
+                              <span className="text-4xl md:text-6xl">Sayan Banerjee.</span><br />
+                              <span className="text-2xl my-4 md:text-3xl">Crafting Digital Solutions Across Web, Mobile, and Beyond</span><br />
                               <p>
                                 <span>I specialize in architecting and developing intuitive interfaces for complex systems, from frontend to backend. </span>
                                 <span>With over a decade of experience, I create digital experiences that are not only delightful and effective but also scalable and secure. </span> 
-                                <span>My passion extends across various aspects of technology, including performance optimization, DevOps, and AI, ensuring that every solution I build is comprehensive and future-ready.</span>
+                                <span className='hidden md:text-xl'>My passion extends across various aspects of technology, including performance optimization, DevOps, and AI, ensuring that every solution I build is comprehensive and future-ready.</span>
                               </p>
                           </div>
                       </div>
@@ -117,7 +113,7 @@ export default function Home() {
                       </SectionWrapper>
                     </section>
               </section>
-              <section className="grid justify-items-center col-span-2">
+              <section className="hidden md:grid md:justify-items-center md:col-span-2">
                 <div className={styles.rightNavBar}>
                   <Menu />
                 </div>

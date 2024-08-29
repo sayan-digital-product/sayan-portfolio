@@ -20,7 +20,7 @@ export default function Document() {
           }}
         />
       </Head>
-      <body>
+      <body className='md:text-xl'>
         {getInitColorSchemeScript()}
         <Main />
         <NextScript />

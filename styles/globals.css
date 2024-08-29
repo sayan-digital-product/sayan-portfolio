@@ -120,7 +120,6 @@ body {
 body {
   background: rgb(var(--background-end-rgb));
   font-family: CalibreRegular;
-  font-size: 1.25rem;
   color: rgb(var(--light-blue-rgb));
 }
 
@@ -161,6 +160,19 @@ a:hover {
 .card-background {
   background-color: rgba(var(--card-rgb)) !important;
   color: rgb(var(--light-blue-rgb)) !important;
+}
+
+.wrapHeading {
+  padding-top: 6rem;
+}
+
+.justify-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.md-font {
+  font-size: 1.25rem;
 }
 
 @media (prefers-color-scheme: dark) {

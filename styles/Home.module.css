@@ -10,7 +10,7 @@
     width: 100%;
     background-image: -webkit-linear-gradient(-25deg, rgba(var(--background-start-rgb)) 45%, rgba(var(--background-end-rgb)) 45%);
     /* background: rgba(var(--background-end-rgb)); */
-    min-height: calc(100vh - 48px);
+    /* min-height: calc(100vh - 48px); */
     font-weight: 600;
 }
 
@@ -32,20 +32,11 @@
 .page {
   width: 100%;
   min-height: calc(100vh - 48px);
-  padding-bottom: 4rem;
 }
-
-.wrapHeading {
-  display: flex;
-  padding-top: 6rem;
-  justify-content: center;
-}
-
 
 .brightBlue {
   color: rgb(var(--bright-blue-rgb));
 }
-
 
 .pageHeading {
 
