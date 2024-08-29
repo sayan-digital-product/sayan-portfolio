@@ -85,8 +85,8 @@ export default function Home() {
                       </div>
                       <div className='grid grid-cols-1 content-center'>
                           <div className="mx-4 my-6 md:my2">
-                              <span className="text-4xl md:text-6xl">Sayan Banerjee.</span><br />
-                              <span className="text-2xl my-4 md:text-3xl">Crafting Digital Solutions Across Web, Mobile, and Beyond</span><br />
+                              <span className="text-4xl md:text-6xl">Sayan Banerjee.</span><br /><br />
+                              <span className="text-2xl my-4 md:text-3xl">Crafting Digital Solutions Across Web, Mobile, and Beyond</span><br /><br />
                               <p>
                                 <span>I specialize in architecting and developing intuitive interfaces for complex systems, from frontend to backend. </span>
                                 <span>With over a decade of experience, I create digital experiences that are not only delightful and effective but also scalable and secure. </span> 
