@@ -187,12 +187,11 @@ export const experience = [
     shortName: "FIS",
     date: "October 2021 - Present",
     descBullets: [
-      "  Working as Senior Technical Architect in UI/UX CoE team.",
+      "  Working as Senior Technical Architect.",
       "  Provide services to product teams in terms of creating architectural runway, implementing solutions for complex challenges, providing recommendations and consultancies.",
-      "  Building a product in collaboration with AI CoE from the scratch to automate any business process document generation.",
       "  Mentor developers from different units of organization and conduct frequent training sessions.",
-      "  Responsible to define strategy for progress of CoE, worked on to implement inner source concept, evaluated tools and research work on development acceleration.",
-      "  Work independently also as individual contributor to implement new features, improve the overall user experience and make sure the platform is reliable and fast for our customers.",
+      "  Responsible to define strategy for progress of UI Community, worked on to implement inner source concept, evaluated tools and research work on development acceleration.",
+      "  As Individual contributor manage and enhance Design System components and push best practices ideas to enhance technology capabilities in the organization.",
     ],
   },
   {
